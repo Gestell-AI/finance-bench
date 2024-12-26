@@ -1,0 +1,21 @@
+{
+  "name": "@gestell/finance-bench",
+  "scripts": {
+    "prettier": "prettier --write responses/* && prettier --write src/*",
+    "setup": "bun run src/setup.ts",
+    "check": "bun run src/check.ts",
+    "eval": "bun run src/eval.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@gestell/sdk": "^1.1.21",
+    "colors": "^1.4.0",
+    "fs-jetpack": "^5.1.0",
+    "node-fetch": "^3.3.2"
+  }
+}
